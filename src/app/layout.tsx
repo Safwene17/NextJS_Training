@@ -12,29 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ margin: "0" , padding : "0"}}>
-        <div
-          style={{
-            width: "100%",
-            backgroundColor: "lightblue",
-            height: "100px",
-            
-          }}
-        >
-          <h2>navbar</h2>
-        </div>
-        {children}
-
-        <div
-          style={{
-            width: "100%",
-            backgroundColor: "lightblue",
-            height: "100px",
-          }}
-        >
-          <h2>footer</h2>
-        </div>
-      </body>
+      <body style={{ margin: "0", padding: "0" }}>{children}</body>
     </html>
   );
 }
