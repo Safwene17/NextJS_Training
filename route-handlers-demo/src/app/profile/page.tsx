@@ -1,5 +1,5 @@
 export default function Profile() {
     return (
-        <div></div>
+        <h1>hi life </h1>
     );
 }
